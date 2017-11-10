@@ -1,0 +1,42 @@
+@media (min-width: 960px) {
+
+body{
+  font-family: 'Spectral SC', serif;
+ 
+}
+
+ul {  
+  list-style-type: none;
+  overflow: hidden;
+  height: auto;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+li {
+  display: inline; 
+ }
+ 
+li a {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  width: 170px;
+  height: auto;
+  color: black;
+  font-weight: bold; 
+  font-size: 1.5em;
+  margin: 10px 5px 10px 5px;
+}
+ 
+img {
+ height: 100%;
+ width: 100%;
+ vertical-align: middle;
+ }
+ 
+}
